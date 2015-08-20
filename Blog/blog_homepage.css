@@ -1,4 +1,64 @@
-body {
-background-image: url('AD-SKYLINE.jpg');
-background size: cover;
+body{
+  background-image: url('AD-SKYLINE.jpg');
+}
+
+header {
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  background-color:rgba(0,0,0,0.5);
+}
+
+li {
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:active {
+  text-decoration: none;
+  color: #b24700;
+}
+
+
+p {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+#about {
+  background-color: #ffffff 0.5;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: right;
+  width: 70%;
+}
+
+#author {
+  float: left;
+  size: relative;
+  display: block;
+  background-color: #cca37a;
+  text-align: center;
+}
+
+img {
+  width: 250px;
 }
