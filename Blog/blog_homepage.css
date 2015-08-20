@@ -39,26 +39,37 @@ a:active {
 
 
 p {
-  padding: 20px;
-  margin: 0 auto;
+  padding: 10px;
+  margin: 5 auto;
 }
 
 #about {
   background-color: #ffffff 0.5;
   margin-left: 20px;
   margin-right: 20px;
-  float: right;
   width: 70%;
+  float: right;
 }
 
 #author {
   float: left;
   size: relative;
   display: block;
-  background-color: #cca37a;
+  background-color: rgba(0,0,0,0.5);
   text-align: center;
 }
 
 img {
-  width: 250px;
+  width: 200px;
+  float: left;
+  padding: 30px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 40px;
+    margin-top: 40px;
+    align: center;
+    color: #ffffff;
 }
